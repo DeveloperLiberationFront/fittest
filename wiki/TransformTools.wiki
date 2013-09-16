@@ -22,6 +22,8 @@ Moreover, these transformation tools are integrated in the ITE as well, therefor
     # Copy and Page the link of the update site above into the Work With address box
     # Follow the eclipse instructions 
 
+For the plugin, you can also build it from source code and drag/drop the build of the plugin to the plugins folder of Eclipse.
+
 = How to use the plugin =
 
 == Quick ==
