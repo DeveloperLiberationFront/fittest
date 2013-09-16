@@ -10,7 +10,7 @@ TransformTools is a suite of tools for:
     # Selenium Webdriver http://seleniumhq.org for Web Apps
     # Robotium http://code.google.com/p/robotium for Android Apps
 
-The tools are available as standalone Java programs and are also integrated in a Eclipse Plugin, called eu.fittest.transformtools.standalone. It's enough to install the plugin into an Eclipse environment to get all the transformation features.
+The tools are available as standalone Java programs and are also integrated in an Eclipse Plugin, called eu.fittest.transformtools.standalone. It's enough to install the plugin into an Eclipse environment to get all the transformation features.
 
 Moreover, these transformation tools are integrated in the ITE as well, thereforem, all the features are available in ITE.
 
