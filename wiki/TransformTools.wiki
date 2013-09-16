@@ -1,0 +1,25 @@
+#summary One-sentence summary of this page.
+#labels Phase-Deploy
+
+= Introduction =
+
+TransformTools is a suite of tools for:
+
+* Model inference from logs
+* Test generation that take FSMs models and domain input specifications as inputs and generates executable test cases in:
+# Selenium Webdriver http://seleniumhq.org for Web Apps
+# Robotium http://code.google.com/p/robotium for Android Apps
+
+The tools are available as standalone Java programs and are also integrated in a Eclipse Plugin, called eu.fittest.transformtools.standalone. It's enough to install the plugin into an Eclipse environment to get all the transformation features.
+
+Moreover, these transformation tools are integrated in the ITE as well, thereforem, all the features are available in ITE.
+
+= Installation =
+* For individual tools, you can download the source code and use Maven to build from the root project.
+* For the plugin, please use the [http://selab.fbk.eu/magic/update/ Update Site]
+
+##In Eclipse, open Help > Install New Software ...
+##Copy and Page the link of the update site above into the Work With address box
+##Follow the eclipse instructions 
+
+ 
