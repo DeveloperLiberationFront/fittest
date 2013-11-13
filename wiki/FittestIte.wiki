@@ -1,4 +1,4 @@
-# FITTEST Integrated Testing Environment (ITE)
+FITTEST Integrated Testing Environment (ITE)
 
 =FITTEST Integrated Testing Environment (ITE)=
 
