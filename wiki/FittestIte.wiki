@@ -1,0 +1,29 @@
+#FITTEST Integrated Testing Environment (ITE)
+
+=FITTEST Integrated Testing Environment (ITE)=
+
+The FITTEST ITE (Integrated Testing Environment) is a tool for the automated test of Future Internet applications. It integrates a tool suite of new and improved testing tools for continuous automated testing. A continuous testing cycle using the ITE consists of the steps shown in the following Figure
+
+https://scontent-a-mad.xx.fbcdn.net/hphotos-prn2/9265_584376368296223_1364928615_n.jpg
+
+The ITE activates the logging of the SUT, and collects the 
+generated logs. We can either log real usages by end users of the
+application in the production environment, or log test cases execution
+in the test environment.
+
+The ITE analyses the logs and infers a model of the SUT.  Whenever a
+model change is detected, the ITE also initiates oracles inference
+(e.g. log-based or model-based oracles), test cases generation, and
+finally test cases execution.  To generate test cases, abstract test
+cases are first inferred from the model by traversing the model
+according to a proper criteria, such as transition coverage. Then,
+they are concretised by means of search-based test case generation
+(using a genetic algorithm).
+
+The ITE executes the test cases and evaluates them using free oracles
+(e.g. SUT crashes/hangs) and inferred oracles. Of course, it is
+also possible to incorporate human written oracles.
+
+The implementation of the tools for logging and test case execution 
+depend on the technologies used by the
+SUT. Currently the ITE supports Flash and PHP applications.
