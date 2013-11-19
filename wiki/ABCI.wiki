@@ -2,6 +2,6 @@
 
 = abci =
 
-|| [https://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2Fsub-projects%2Flogtools%2Fabci%2Fv1%253Fstate%253Dclosed src] || [https://fittest.googlecode.com/svn/trunk/sub-projects/logtools/abci/v1/docs/index.html doc] || download ||
+|| [https://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2Fsub-projects%2Flogtools%2Fabci%2Fv1%253Fstate%253Dclosed src] || [https://googledrive.com/host/0BwFaBuXA-b2vaXVEdU54ZV9zUEE/docs/abci/index.html doc] || download ||
 
 Abci is an instrumentation tool to inject low-level logging code into a target application. The application is in !ActionScript bytecode, packaged as a Flash .swf file.
