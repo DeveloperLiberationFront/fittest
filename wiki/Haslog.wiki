@@ -20,3 +20,5 @@ An example of an entry in a FITTEST log:
 %>
 %>
 }}} 
+
+Haslog can for example compress a FITTEST log, or to convert them to XML to be processed by other tools. It can also do pre-processing and then convert logs to the Daikon format, so that you can use Daikon to infer invariants from them.
