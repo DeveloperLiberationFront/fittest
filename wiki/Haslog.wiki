@@ -1,8 +1,8 @@
 #summary Haslog, a utility to process FITTEST-format logs.
 
-|| src || doc || download ||
+|| [https://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2Fsub-projects%2Flogtools%2Fhaslog%2Fv1.2 src] || doc || download ||
 
-In progress: preparing docs and binary downloads.
+_*In progress:* preparing docs and binary downloads._
 
 Haslog is a utility tool to process logs in the FITTEST format. The format is described the [http://www.cs.uu.nl/research/techreps/repo/CS-2012/2012-014.pdf UU-CS-2012-014] technical report. The format is text-based, well defined and deeply structured (e.g. allowing objects to be serialized into a log), but more compact than e.g. XML.
 
