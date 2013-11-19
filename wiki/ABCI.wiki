@@ -1,4 +1,4 @@
-#summary abci, !ActionScript bytecode instrumenter.
+#summary abci, ActionScript bytecode instrumenter.
 
 = abci =
 
