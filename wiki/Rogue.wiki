@@ -7,6 +7,8 @@ The unpredictable and varied way in which users can interact with systems will b
 We have created a fully automatic GUI crash testing framework. It uses the operating system’s Accessibility API to recognize GUI controls and their properties and enables programmatic interaction with them. It derives sets of possible actions for each state that the GUI is in and automatically selects and executes appropriate ones in order to drive the GUI and eventually crash it. The tool uses a machine learning algorithm called Q-Learning to generate short, fault- effective and reproducible crash sequences, which a normal human user would not come up with.
 
 
+<iframe width="420" height="315" src="//www.youtube.com/embed/ggAFpvSA7OE" frameborder="0" allowfullscreen></iframe>
+
 = Details =
 
   * Uses the operating system's accessibility API to obtain information about the SUT's state
