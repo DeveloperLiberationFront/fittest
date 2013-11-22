@@ -8,6 +8,8 @@ We have created a fully automatic GUI crash testing framework. It uses the opera
 
 [http://www.youtube.com/watch?v=ggAFpvSA7OE watch a video]
 
+Download the Rogue User: [https://code.google.com/p/fittest/source/browse/ download]
+
 = Details =
 
   * Uses the operating system's accessibility API to obtain information about the SUT's state
