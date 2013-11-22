@@ -7,7 +7,7 @@ This document describes how to deploy the loggers.
 
 Typically, an Internet application consists of a server part and a client part. They will run on production servers and user machines. For the purpose of testing, there may also be a twin of the application, deployed on separate testing machines. The first is called _production version_, the second _testing version_. We will need logging for both; but the procedures to deploy the loggers for them are just the same. The need to log the production version is obvious. Logging the testing version allows us to collect logs from the executions of test-cases. These in turn are used by some test-oracles to decide the verdict of a test-suite.
 
-Two logging tools are provided: PHP and Flash loggers. The first is a server-side logger, since PHP is also a server-side language to program a web application. The second is to log rich clients, programmed in ActionScript.
+Two logging tools are provided: PHP and Flash loggers. The first is a server-side logger, since PHP is also a server-side language to program a web application. The second is to log rich clients, programmed in !ActionScript.
 
   * [Deploying the PHP Logger]
   * [Deploying the Flash Logger]
