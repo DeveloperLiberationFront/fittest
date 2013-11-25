@@ -7,6 +7,9 @@ The FITTEST ITE (Integrated Testing Environment) is a tool for the automated tes
 
 https://scontent-a-mad.xx.fbcdn.net/hphotos-prn2/9265_584376368296223_1364928615_n.jpg
 
+
+In continuous testing we monitor the application as it runs, to infer a model of its behavior, from which we generate test suites. When dynamic changes are observed, the suites are re-executed to detect anomalies. After the application is analyzed and fixed, a new phase of inference is triggered to refine the current model. This cycle continues through out the life time of the application.
+
 The ITE activates the logging of the SUT, and collects the 
 generated logs. We can either log real usages by end users of the
 application in the production environment, or log test cases execution
