@@ -4,7 +4,9 @@
 
 _*In progress:* preparing docs and binary downloads._
 
-Haslog is a utility tool to process logs in the FITTEST format. The format is described the [http://www.cs.uu.nl/research/techreps/repo/CS-2012/2012-014.pdf UU-CS-2012-014] technical report. The format is text-based, well defined and deeply structured (e.g. allowing objects to be serialized into a log), but more compact than e.g. XML.
+Haslog suite is a set of command-line tools to process FITTEST logs, e.g. to convert them to XML, to prepare them for specification inference, etc. It consists of the following tools: haslog (yes, it is also the name of one of the tools), declsplit, declmerge, and daikonice.
+
+The FITTEST log format is described the [http://www.cs.uu.nl/research/techreps/repo/CS-2012/2012-014.pdf UU-CS-2012-014] technical report. The format is text-based, well defined and deeply structured (e.g. allowing objects to be serialized into a log), but more compact than e.g. XML.
 
 An example of an entry in a FITTEST log:
 
