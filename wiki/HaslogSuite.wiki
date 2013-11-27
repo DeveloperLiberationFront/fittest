@@ -1,4 +1,4 @@
-#summary Haslog, a utility to process FITTEST-format logs.
+#summary Haslog suite, a set of utilities to process FITTEST-format logs.
 
 || [https://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2Fsub-projects%2Flogtools%2Fhaslog%2Fv1.2 src] || doc || download ||
 
