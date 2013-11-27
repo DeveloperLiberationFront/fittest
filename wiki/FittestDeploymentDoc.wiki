@@ -2,6 +2,8 @@
 
 =How to Deploy the SUT for Continous Testing with the [FittestIte FITTEST ITE]=
 
+UNDER CONSTRUCTION
+
 The [FittestIte ITE] needs its loggers to be deployed along with the SUT. So, the deployment of the latter has to be slightly adjusted to also deploy a logger. The loggers are needed to let the [FittestIte ITE] collect logs, which in turn are used to e.g. construct a behavior model of the SUT.
 This document describes how to deploy the loggers.
 
