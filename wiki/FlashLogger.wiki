@@ -4,7 +4,7 @@
 
 _*In progress:* preparing docs and binary downloads._
 
-The FlashLogger allows user interactions with a Flash application to
+The !FlashLogger allows user interactions with a Flash application to
 be automatically logged (the programmer does not need to manually insert logging code). Logs can be collected by the client through JavaScript APIs, or remotely using the
 <a href="https://code.google.com/p/fittest/wiki/FittestIte">FITTEST
 Integrated Testing Environment (ITE)</a>. In principle it is possible to do custom remote retrieval by implementing the same protocol between the logger and the ITE, see the documentation.
