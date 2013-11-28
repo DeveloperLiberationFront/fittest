@@ -1,6 +1,7 @@
 #summary Fully-Automated GUI Testing.
 
-= Introduction =
+
+|| src || doc || [https://code.google.com/p/fittest/source/browse/ download] ||
 
 The unpredictable and varied way in which users can interact with systems will be one of the problems that will become increasingly important over the lifetime of the FITTEST project and beyond. Users of these systems may be humans (who are inherently unpredictable) and other automated or semi-automated systems, interacting in ways possibly not envisaged by their designers.
 
@@ -8,9 +9,7 @@ We have created a fully automatic GUI crash testing framework. It uses the opera
 
 [http://www.youtube.com/watch?v=ggAFpvSA7OE watch a video]
 
-Download the Rogue User: [https://code.google.com/p/fittest/source/browse/ download]
-
-= Details =
+= Characteristics =
 
   * Uses the operating system's accessibility API to obtain information about the SUT's state
   * Uses this information to derive possible actions (Clicks, Drag-Drop-Operations, Keyboard-Input, ...)
