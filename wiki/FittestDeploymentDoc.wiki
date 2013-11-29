@@ -25,8 +25,8 @@ The preparation and deployment of the SUT depends on the logger used. Out of the
 
 Manuals for doing the above steps are linked below.
 
-  * [Deploying FITTEST agents]
-  * [Preparing and Deploying the SUT with !PHPLogger]; this is to log UT's server-side program written in PHP. 
-  * [Preparing and Deploying the SUT with !FlashLogger]; this is to log SUT's Flash-based clients (written in ActionScript or MXML).
+  * Deploying FITTEST agents.
+  * Preparing and Deploying the SUT with !PHPLogger; this is to log UT's server-side program written in PHP. 
+  * Preparing and Deploying the SUT with !FlashLogger; this is to log SUT's Flash-based clients (written in ActionScript or MXML).
 
  
