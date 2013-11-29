@@ -1,17 +1,32 @@
 #summary How to deploy the SUT for the FITTEST ITE
 
-=How to Deploy the SUT for Continous Testing with the [FittestIte FITTEST ITE]=
+=How to Deploy the SUT for Testing with the [FittestIte FITTEST ITE]=
 
-UNDER CONSTRUCTION
+Essentially, ITE is an Eclipse-based tool that allows a tester to infer behavior models and oracles from logs, and to generate test-cases from these models and use them to test the SUT. Deploying the ITE itself is a matter of running its executable. However, there are additional things that have to be prepared in order to facilitate logging. For example, SUT's deployment procedure has to be adjusted to let our loggers to be deployed alongside the SUT. Furthermore, the ITE does not assume the SUT to run on the same machine as the ITE itself (this would be unrealistic), so its standard way of collecting the logs is by doing this _remotely_. To facilitate this, it uses _agents_ ; these have to be deployed as well.
 
-The [FittestIte ITE] needs its loggers to be deployed along with the SUT. So, the deployment of the latter has to be slightly adjusted to also deploy a logger. The loggers are needed to let the [FittestIte ITE] collect logs, which in turn are used to e.g. construct a behavior model of the SUT.
-This document describes how to deploy the loggers.
+Being an Internet application, the SUT is usually not a single program. Rather, it is a _distributed system_, e.g. consisting of a server and multiple clients. Each "program" participating in the distributed system is assumed to be interactive: it interacts with e.g. users, or with other programs in the system. Depending on the testing goals, we may want to log the server, or to log only the clients, or to do both. 
 
-Typically, an Internet application consists of a server part and a client part. They will run on production servers and user machines. For the purpose of testing, there may also be a twin of the application, deployed on separate testing machines. The first is called _production version_, the second _testing version_. We will need logging for both; but the procedures to deploy the loggers for them are just the same. The need to log the production version is obvious. Logging the testing version allows us to collect logs from the executions of test-cases. These in turn are used by some test-oracles to decide the verdict of a test-suite.
+The entire SUT's system may also be duplicated on a set of dedicated testing machines. Such a setup is often called _testing environment_ as opposed to the _production environment_, as shown below:
+  [https://fittest.googlecode.com/svn/wiki/files/ITE_distributed_deployment_small.jpg]
 
-Two logging tools are provided: PHP and Flash loggers. The first is a server-side logger, since PHP is also a server-side language to program a web application. The second is to log rich clients, programmed in !ActionScript.
+Conceptually, this distinction is irrelevant for the ITE, except that it is usually unwise to run test-cases against the production environment. Logging can however be done on any of these environments. E.g. when applied on the testing environment, logging allows us to also log the executions of test suites.  
 
-  * [Deploying the PHP Logger]
-  * [Deploying the Flash Logger]
+To ultimately be able to generate test-cases, there is a requirement on the loggers to use. When a logger logs a program P, it should be possible to interpret any log it produces to a sequence of interactions on the program P. If P is deterministic, the resulting execution would generate the same log; but we will not make such assumption. Out of the box, we provide two loggers satisfying this requirement. 
+
+== General Steps ==
+
+At the top level the steps needed to deploy testing with the FITTEST ITE are as follows:
+
+  #Prepare the SUT. 
+  #Load the ITE, and deploy its agents.
+  #Deploy the SUT.
+
+The preparation and deployment of the SUT depends on the logger used. Out of the box, two loggers are provided: PHP and Flash loggers. It is possible to write your own logger by implementing [the protocol between the logger and the agent].
+
+Manuals for doing the above steps are linked below.
+
+  * [Deploying FITTEST agents]
+  * [Preparing and Deploying the SUT with !PHPLogger]; this is to log UT's server-side program written in PHP. 
+  * [Preparing and Deploying the SUT with !FlashLogger]; this is to log SUT's Flash-based clients (written in ActionScript or MXML).
 
  
