@@ -6,6 +6,8 @@ Essentially, ITE is an Eclipse-based tool that allows a tester to infer behavior
 
 Being an Internet application, the SUT is usually not a single program. Rather, it is a _distributed system_, e.g. consisting of a server and multiple clients. Each "program" participating in the distributed system is assumed to be interactive: it interacts with e.g. users, or with other programs in the system. Depending on the testing goals, we may want to log the server, or to log only the clients, or to do both. 
 
+When we want to remotely control a program P from the ITE, e.g. to control its logger, the ITE requires an agent to be deployed between itself and P. This agent will run on the same machine as P, and acts as an extension of the ITE on P's machine.
+
 The entire SUT's system may also be duplicated on a set of dedicated testing machines. Such a setup is often called _testing environment_ as opposed to the _production environment_, as shown below:
   [https://fittest.googlecode.com/svn/wiki/files/ITE_distributed_deployment_small.jpg]
 
