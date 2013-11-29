@@ -17,9 +17,9 @@ To ultimately be able to generate test-cases, there is a requirement on the logg
 
 At the top level the steps needed to deploy testing with the FITTEST ITE are as follows:
 
-  #Prepare the SUT. 
-  #Load the ITE, and deploy its agents.
-  #Deploy the SUT.
+  # Prepare the SUT. 
+  # Load the ITE, and deploy its agents.
+  # Deploy the SUT.
 
 The preparation and deployment of the SUT depends on the logger used. Out of the box, two loggers are provided: PHP and Flash loggers. It is possible to write your own logger by implementing [the protocol between the logger and the agent].
 
