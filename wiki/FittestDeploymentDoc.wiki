@@ -27,6 +27,6 @@ Manuals for doing the above steps are linked below.
 
   * Deploying FITTEST agents.
   * Preparing and Deploying the SUT with !PHPLogger; this is to log UT's server-side program written in PHP. 
-  * Preparing and Deploying the SUT with !FlashLogger; this is to log SUT's Flash-based clients (written in ActionScript or MXML).
+  * [https://googledrive.com/host/0B8DIOtn2sWX8ZXUwV1JENzhWa2c/index.html Preparing and Deploying the SUT with FlashLogger]; this is to log SUT's Flash-based clients (written in ActionScript or MXML).
 
  
