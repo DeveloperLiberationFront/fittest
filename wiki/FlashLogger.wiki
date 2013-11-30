@@ -1,6 +1,6 @@
 #summary A logger for a Flash application.
 
-|| src || doc || download ||
+|| src || [https://googledrive.com/host/0B8DIOtn2sWX8bFI3QUltMUhpclk/docs/index.html doc] || download ||
 
 _*In progress:* preparing docs and binary downloads._
 
