@@ -39,5 +39,5 @@ When decoded, the above could expand to the example below. It adds tracing infor
 
 For how it works, check out our paper:
 
-   [http://www.thinkmind.org/download.php?articleid=valid_2013_3_40_40066 _Compact Traceable Logging_],
+   [http://www.thinkmind.org/download.php?articleid=valid_2013_3_40_40066 Compact Traceable Logging],
 Wishnu Prasetya, Ales Sturala, Arie Middelkoop, Jurriaan Hage, Alexander Elyasov, in The 5th International Conference on Advances in System Testing and Validation Lifecycle (VALID), 2013.
