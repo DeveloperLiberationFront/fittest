@@ -1,9 +1,6 @@
 #summary Haslog suite, a set of utilities to process FITTEST-format logs.
 
-|| haslog src || haslog doc || 
-|| dtrsplit src || dtrsplit doc ||
-|| declmerge src || declmerge doc ||
-|| daikonice src || daikonice doc ||
+|| haslog src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/haslog/docs/index.html haslog doc] || dtrsplit src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/dtrsplit/docs/index.html dtrsplit doc] || declmerge src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/declmerge/docs/index.html declmerge doc] || daikonice src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/daikonice/docs/index.html daikonice doc] ||
 
 || linux-binary || MacOS-binary || Win32-binary || Win64-binary||
 
