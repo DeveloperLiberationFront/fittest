@@ -1,8 +1,11 @@
 #summary Haslog suite, a set of utilities to process FITTEST-format logs.
 
-|| [https://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2Fsub-projects%2Flogtools%2Fhaslog%2Fv1.2 src] || doc || download ||
+|| haslog src || haslog doc || 
+|| dtrsplit src || dtrsplit doc ||
+|| declmerge src || declmerge doc ||
+|| daikonice src || daikonice doc ||
 
-_*In progress:* preparing docs and binary downloads._
+|| linux-binary || MacOS-binary || Win32-binary || Win64-binary||
 
 Haslog suite is a set of command-line tools to process FITTEST logs, e.g. to convert them to XML, to prepare them for specification inference, etc. It consists of the following tools: haslog (yes, it is also the name of one of the tools), declsplit, declmerge, and daikonice.
 
