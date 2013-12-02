@@ -1,5 +1,8 @@
 #summary Compact logging with traceability.
 
+=Traceability Transformation=
+
+
 || src || doc || download ||
 
 TrT is a transformation tool for Java that will change a Java program with ordinary logging so that it produces very compact encoded log files. Despite the compaction, the transformation also enrich the logged information with tracing information, so that when decoded the resulting log will also reveal decisions (branches) taken by the program that were important towards reaching or avoiding its log points.
