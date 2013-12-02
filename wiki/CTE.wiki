@@ -24,4 +24,4 @@ While the method can be applied using a pen and a paper, the usual way involves 
 
 CTE XL Professional is a commercial tool. Free evaluation licenses and free licenses for Academia are available upon request. 
 
-A [http://www.berner-mattner.com/en/berner-mattner-home/products/cte/cte-xl/index.html complete free edition] is available, however, with a reduced set of features.
+A [http://www.berner-mattner.com/en/berner-mattner-home/products/cte/cte-xl/index.html free edition] is available, however, with a reduced set of features.
