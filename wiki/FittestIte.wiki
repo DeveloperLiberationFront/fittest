@@ -1,3 +1,5 @@
+#summary The FITTEST ITE for Continuous Testing
+
 =FITTEST Integrated Testing Environment (ITE)=
 
    || [https://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE src] || [FittestDeploymentDoc deployment doc] || installation doc || user manual || download ||
