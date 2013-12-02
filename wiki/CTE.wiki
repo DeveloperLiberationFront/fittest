@@ -19,8 +19,8 @@ The second step of test design then follows the principles of combinatorial test
 While the method can be applied using a pen and a paper, the usual way involves the usage of the Classification Tree Editor, a software tool implementing the classification tree method.
 
 (A full overview on the [https://en.wikipedia.org/wiki/Classification_Tree_Method classification tree method] can be found on [https://en.wikipedia.org/wiki/Classification_Tree_Method wikipedia].)
----- 
-CTE XL Professional is a test design tool (not only) for combinatorial testing.
+
+----
 
 CTE XL Professional is a commercial tool. Free evaluation licenses and free licenses for Academia are available upon request. 
 
