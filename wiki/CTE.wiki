@@ -6,3 +6,7 @@
 
 
 CTE XL Professional is a test design tool (not only) for combinatorial testing.
+
+CTE XL Professional is a commercial tool. Free evaluation licenses and free licenses for Academia are available upon request. 
+
+A [http://www.berner-mattner.com/en/berner-mattner-home/products/cte/cte-xl/index.html complete free edition] is available, however, with a reduced set of features.
