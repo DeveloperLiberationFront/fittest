@@ -1,0 +1,7 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Log2FSM is a component for the inference of FSM model from both state-full logs and state-less logs. For the former one, we use state-based abstraction to get abstract states and infer FSM consisting of such states and the event (transitions) that trigger the transition among states. For the later, we employ sequence-based model inference: input are sequences of events and k-tail is applied to minimize and generalize the output FSMs.
+
+The component is integrated into the ITE.
