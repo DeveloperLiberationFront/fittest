@@ -24,4 +24,4 @@ php_value auto_prepend_file  /var/www/yourapp/eu.fittest.phplogger/FittestPhpLog
 
 ==RUNNING==
 
-Just run your PHP application as usual. As clients start using the web application all the requests will generate a new XML file in the folder path configured by the property "phploggercomponent.logging.dir" inside "phploggercomponent.conf".
+Just run your PHP application as usual. As clients start using the web application all the requests will generate a new XML file in the folder configured by the property "phploggercomponent.logging.dir" inside "phploggercomponent.conf".
