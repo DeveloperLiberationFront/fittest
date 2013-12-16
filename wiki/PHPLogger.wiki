@@ -12,11 +12,11 @@ A PHP application deployed on a webserver.
 	
 ==PREPARING==
 
-#Copy the PHP logger (files FittestPhpLogger.php, FittestPhpLoggerConfig.php and Properties.php) to a folder (i.e. eu.fittest.phplogger) in the root directory of your PHP web application.
+ # Copy the PHP logger (files FittestPhpLogger.php, FittestPhpLoggerConfig.php and Properties.php) to a folder (i.e. eu.fittest.phplogger) in the root directory of your PHP web application.
 
-#Copy the folder ".fittest" (includes the configuration file "phploggercomponent.conf") to the root directory of your PHP web application.
+ # Copy the folder ".fittest" (includes the configuration file "phploggercomponent.conf") to the root directory of your PHP web application.
 
-#Setup the PHP directive "auto_prepend_file" to automatically include the "FittestPhpLogger.php" file before the web application main-file. The directive can be set in either the global "php.ini" file, the webserver configuration file, or a ".htaccess" file in the root directory of the web application.
+ # Setup the PHP directive "auto_prepend_file" to automatically include the "FittestPhpLogger.php" file before the web application main-file. The directive can be set in either the global "php.ini" file, the webserver configuration file, or a ".htaccess" file in the root directory of the web application.
 
 For example, if the index.php page of the application is located in /var/www/yourapp/, create a file "/var/www/yourapp/.htaccess" with the content:
 {{{
