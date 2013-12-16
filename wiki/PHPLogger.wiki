@@ -1,10 +1,10 @@
-#summary A logging tool for PHP applications.
+#summary A logging component for PHP applications.
 
-=PHPLogger (standalone) - a logger for a PHP application=
+=PHPLogger - a logger component for PHP applications=
 
 || [https://code.google.com/p/fittest/source/browse/trunk/ITE%20Components%20standalone/Logging%20and%20Reporting%20Tools/PHP/PHPLogger/v1 src] || doc || download ||
 
-A logging tool for PHP applications. Enables the logging of HTTP server information as triples Request,Data,Response on PHP applications. Each triple is stored as a XML file with the IP, Port and timeStamp of the PHP request.
+A logging component for PHP applications. Enables the logging of HTTP server information as triples Request,Data,Response on PHP applications. Each triple is stored as a XML file with the IP, Port and timeStamp of the PHP request.
 
 ==REQUIREMENTS==
 
@@ -12,8 +12,11 @@ A PHP application deployed on a webserver.
 	
 ==PREPARING==
 
- # Copy the PHP logger (files !FittestPhpLogger.php, !FittestPhpLoggerConfig.php and Properties.php) to a folder (i.e. eu.fittest.phplogger) in the root directory of your PHP web application.
- # Copy the folder ".fittest" (includes the configuration file "phploggercomponent.conf") to the root directory of your PHP web application.
+ # Copy the PHP logger (files !FittestPhpLogger.php, !FittestPhpLoggerConfig.php and Properties.php) to a folder (i.e. eu.fittest.phplogger) in the root directory of your PHP web application. Alternatively, you can get the logger from the ITE:
+{{{
+wget http://"IP of FITTEST ITE":8008/tools/phplogger.zip
+}}}
+ # Copy the folder ".fittest" (includes the configuration file "phploggercomponent.conf") to the root directory of your PHP web application. This folder must be writable by the PHP logging component, which will be run by the FITTEST server agent.
  # Edit the file "phploggercomponent.conf" to set the property "phploggercomponent.logging.dir" to a folder in which the PHP application has write access.
  # Setup the PHP directive "auto_prepend_file" to automatically include the "!FittestPhpLogger.php" file before the web application main-file. The directive can be set in either the global "php.ini" file, the webserver configuration file, or a ".htaccess" file in the root directory of the web application.
 
