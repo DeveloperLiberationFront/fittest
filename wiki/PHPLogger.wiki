@@ -13,7 +13,7 @@ A logging component for PHP applications. Enables the logging of HTTP server inf
 	
 ==PREPARING==
 
- # Copy the PHP logger (files !FittestPhpLogger.php, !FittestPhpLoggerConfig.php and Properties.php) to a folder (i.e. eu.fittest.phplogger) in the root directory of your PHP web application. Alternatively, you can get the logger from the ITE:
+ # Copy the PHP logger (files !FittestPhpLogger.php, !FittestPhpLoggerConfig.php and Properties.php) to a folder (i.e. eu.fittest.phplogger) in the root directory of your PHP web application. Alternatively, you can get the logger from the ITE if it is already running:
 {{{
 wget http://"IP of FITTEST ITE":8008/tools/phplogger.zip
 }}}
