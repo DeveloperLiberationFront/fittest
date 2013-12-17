@@ -9,7 +9,7 @@ A logging component for PHP applications. Enables the logging of HTTP server inf
 ==REQUIREMENTS==
 
  * A PHP application deployed on a webserver.
- * The [https://code.google.com/p/fittest/wiki/FittestIte FITTEST ITE], which will use this component to collect logs from PHP sessions.
+ * OPTIONAL: the [https://code.google.com/p/fittest/wiki/FittestIte FITTEST ITE], which will use this component to collect logs from PHP sessions.
 	
 ==PREPARING==
 
