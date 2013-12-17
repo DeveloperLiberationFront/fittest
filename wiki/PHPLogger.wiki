@@ -2,7 +2,7 @@
 
 =PHPLogger - a logger component for PHP applications=
 
-|| [https://code.google.com/p/fittest/source/browse/trunk/ITE%20Components%20standalone/Logging%20and%20Reporting%20Tools/PHP/PHPLogger/v1 src] || doc || download ||
+|| [https://code.google.com/p/fittest/source/browse/trunk/ITE%20Components%20standalone/Logging%20and%20Reporting%20Tools/PHP/PHPLogger/v1 src] || doc || [https://drive.google.com/folderview?id=0B1lIbYI9LkEJRTVwV1o3OVFFdms&usp=sharing&tid=0BwFaBuXA-b2vaXVEdU54ZV9zUEE download] ||
 
 A logging component for PHP applications. Enables the logging of HTTP server information as triples Request,Data,Response on PHP applications. Each triple is stored as a XML file with the IP, Port and timeStamp of the PHP request.
 
