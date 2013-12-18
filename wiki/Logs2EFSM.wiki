@@ -1,6 +1,6 @@
 ﻿#summary One-sentence summary of this page.
 
-= Introduction =
+|| src || doc || download ||
 
 Log2EFSM is a component for the inference of EFSM models from state-full. We use state-based abstraction to get abstract states and infer FSM consisting of such states and the event (transitions) that trigger the transition among states. 
 

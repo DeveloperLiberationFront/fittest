@@ -54,6 +54,7 @@ fsm cart.Cart {
 
 }}}
 
-
-
+ * mutator section lists the set of events that causes the system to change state, in the example, _add(int)_ 
+ * inspector section lists the set of functions used to request the current state to the SUT
+ * states section describes SUT states by using logical expression on the set of expressions
 
