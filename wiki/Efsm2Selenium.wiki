@@ -1,4 +1,4 @@
-﻿#summary One-sentence summary of this page.
+﻿#summary A tool for generating test cases from an Extended Finite State Machine
 
 = EFSM2Selenium =
 
@@ -6,17 +6,54 @@
 
 == Introduction ==
 
-EFSM2Selenium generates test cases from the formal description of a SUT in terms of Extended Finite State Machines.
+EFSM2Selenium generates test cases from the formal description of a SUT in terms of Extended Finite State Machine.
 
-= EFSM language =
+= EFSM specification =
 
-A EFSM specification is defined by 4 sections: mutators, inspectors, states and transitions.
+A EFSM specification defines an extended state machine and it is defined by 4 sections: mutators, inspectors, states and transitions.
+Here is an example of a specification for a simple online shopping cart.
 
 {{{
 
+fsm cart.Cart {
 
 
+    mutators {
+        a := add(int);
+        r := rem(int);
+        p := pay();
+    }
 
+    inspectors {
+        int n:=n();
+    }
+
+    states {
+        n0 [initial] { n == 0; } ;
+        n1 { n == 1; } ;
+        n2 { n > 1; } ;
+        n3 { n == -1; } ;
+    }
+    
+    transitions {
+        n0 -> n1 { a; } ;
+        n0 -> n2 { a; } ;
+
+        n1 -> n0 { r; } ;
+        n1 -> n2 { a; } ;
+        n1 -> n3 { p; } ;
+
+        n2 -> n2 { a; } ;
+        n2 -> n2 { r; } ;
+        n2 -> n3 { p; } ;
+        n2 -> n1 { r; } ;
+        n2 -> n0 { r; } ;
+    }
+
+}
 
 }}}
+
+
+
 
