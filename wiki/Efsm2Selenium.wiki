@@ -1,0 +1,22 @@
+﻿#summary One-sentence summary of this page.
+
+= EFSM2Selenium =
+
+|| src || doc || download ||
+
+== Introduction ==
+
+EFSM2Selenium generates test cases from the formal description of a SUT in terms of Extended Finite State Machines.
+
+= EFSM language =
+
+A EFSM specification is defined by 4 sections: mutators, inspectors, states and transitions.
+
+{{{
+
+
+
+
+
+}}}
+
