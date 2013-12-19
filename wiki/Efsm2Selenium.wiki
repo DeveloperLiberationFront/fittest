@@ -2,7 +2,7 @@
 
 = EFSM2Selenium =
 
-|| src || doc || [https://drive.google.com/folderview?id=0B7MhSggBoW95ZjhKNVVPaUJFTmM&usp=sharing download] ||
+|| [http://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE%20Components%20standalone%2FModel%20%20Inference%20and%20Transformer%20tools%2FEFSM-based%2FEFSM2Selenium src] || [https://drive.google.com/folderview?id=0B7MhSggBoW95ZjhKNVVPaUJFTmM&usp=sharing doc] || [https://drive.google.com/folderview?id=0B7MhSggBoW95ZjhKNVVPaUJFTmM&usp=sharing download] ||
 
 == Introduction ==
 
