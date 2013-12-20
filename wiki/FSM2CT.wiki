@@ -1,7 +1,7 @@
 #summary One-sentence summary of this page.
 
 
-|| [http://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE%20Components%20standalone%2FModel%20%20Inference%20and%20Transformer%20tools%2FFSM-based%2Ftransformtools%2Feu.fittest.fsm2cte src] || doc || [https://drive.google.com/file/d/0B-nioSs5eNHyOE8teDNkTEU5RWs/edit?usp=sharing download] ||
+|| [http://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE%20Components%20standalone%2FModel%20%20Inference%20and%20Transformer%20tools%2FFSM-based%2Ftransformtools%2Feu.fittest.fsm2cte src] || [http://fittest.googlecode.com/svn/trunk/ITE%20Components%20standalone/Model%20%20Inference%20and%20Transformer%20tools/FSM-based/transformtools/Documentation/Documentation-UserGuide.pdf doc] || [https://drive.google.com/file/d/0B-nioSs5eNHyOE8teDNkTEU5RWs/edit?usp=sharing download] ||
 
 = Introduction =
 
