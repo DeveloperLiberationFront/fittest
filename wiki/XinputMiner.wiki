@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
- src || doc || download ||
+|| src || doc || download ||
 
 = Introduction =
 
