@@ -1,5 +1,7 @@
 #summary One-sentence summary of this page.
 
+ src || doc || download ||
+
 = Introduction =
 
 The inferred FSM models consist of abstract states; the events in the model lose concrete information so they can be executable, such as parameters, data types. Moreover, to effectively apply combinatorial testing in the next step, we need to define input classes for each input parameter.
