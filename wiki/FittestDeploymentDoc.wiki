@@ -12,7 +12,7 @@ The entire SUT may also be duplicated on a set of dedicated testing machines. Su
 
 In principle, the distinction between the production and testing environments is irrelevant for the ITE, except that it is usually unwise to run test-cases against the production environment. Logging can however be done on any of these environments. E.g. when applied on the testing environment, logging allows us to also log the executions of test suites.  
 
-To ultimately be able to generate test-cases, there is a requirement on the loggers to use. When a logger logs a program P, it should be possible to interpret any log it produces to a sequence of interactions on the program P. If P is deterministic, the resulting execution would generate the same log; but we will not make such assumption. Out of the box, we provide two loggers satisfying this requirement. 
+To ultimately be able to generate test-cases, there is a requirement on the loggers to use. When a logger logs a program P, it should be possible to interpret any log it produces to a sequence of interactions on the program P. Effectively, this means that a generated log should be by "some means" executable (which also implies that this "means" is also a crucial part of your test driver). If P is deterministic, the resulting execution would generate the same log; but we will not make such assumption. Out of the box, we provide two loggers satisfying this requirement. 
 
 == General Steps ==
 
