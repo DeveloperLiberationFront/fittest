@@ -22,13 +22,13 @@ At the top level the steps needed to deploy testing with the FITTEST ITE are as 
   # Load the ITE, and deploy its agents.
   # Deploy the SUT.
 
-The preparation and deployment of the SUT depends on the logger used. Out of the box, two loggers are provided: PHP and Flash loggers. It is possible to write your own logger by implementing [https://googledrive.com/host/0B8DIOtn2sWX8bFI3QUltMUhpclk/docs/advanceduse.html#protocol the protocol between the logger and the agent].
+The preparation and deployment of the SUT depends on the logger used. Out of the box, two loggers are provided: PHP and Flash loggers. It is possible to write your own logger by implementing [https://googledrive.com/host/0B1lIbYI9LkEJZUdBUERjTk5sT0E/1.3/docs/advanceduse.html#protocol the protocol between the logger and the agent].
 
 Manuals for doing the above steps are linked below.
 
-  * [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/ITE/deployment/DeployingAgents.html Deploying FITTEST agents].
-  * [https://googledrive.com/host/0B8DIOtn2sWX8ZVg5czRmbTVGdEk/docs/deployment.html Deploying the SUT with PHPLogger]; this is to log SUT's server-side program written in PHP. No special preparation step is needed on the SUT.
+  * [https://googledrive.com/host/0B1lIbYI9LkEJaFA2VjEtWU0tSlU/1.8.3/docs/deployment/DeployingAgents.html Deploying FITTEST agents].
+  * [https://googledrive.com/host/0B1lIbYI9LkEJWElmRnA2b0NzWW8/1.0/docs/README.html Deploying the SUT with PHPLogger]; this is to log SUT's server-side program written in PHP. No special preparation step is needed on the SUT.
 
-  * [https://googledrive.com/host/0B8DIOtn2sWX8bFI3QUltMUhpclk/docs/usage.html Preparing and Deploying the SUT with FlashLogger]; this is to log SUT's Flash-based clients (written in ActionScript or MXML).
+  * [https://googledrive.com/host/0B1lIbYI9LkEJZUdBUERjTk5sT0E/1.3/docs/usage.html Preparing and Deploying the SUT with FlashLogger]; this is to log SUT's Flash-based clients (written in ActionScript or MXML).
 
  
