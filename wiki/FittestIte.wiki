@@ -2,7 +2,7 @@
 
 =FITTEST Integrated Testing Environment (ITE)=
 
-   || [https://code.google.com/p/fittest/source/browse/trunk/ITE%20Release/ src] || [https://docs.google.com/file/d/0B-gYtYSYSFtnQkUza1JjVnljQVU/preview installation doc] || [FittestDeploymentDoc deployment doc] || user manual || developer and tools integrators doc || [https://docs.google.com/uc?id=0B5XHgWVB91yPRWtsdmxJdnhfN1U&export=download download] ||
+   || [https://code.google.com/p/fittest/source/browse/trunk/ITE%20Release/ src] || [https://docs.google.com/file/d/0B-gYtYSYSFtnQkUza1JjVnljQVU/preview installation manual] || [FittestDeploymentDoc deployment manual] || user manual || developer and tools integrators manual || [https://docs.google.com/uc?id=0B5XHgWVB91yPRWtsdmxJdnhfN1U&export=download download] ||
 
 
 The FITTEST ITE (Integrated Testing Environment) is a tool for the automated test of Future Internet applications. It integrates a tool suite of new and improved testing tools for continuous automated testing. A continuous testing cycle using the ITE consists of the steps shown in the following Figure
