@@ -2,7 +2,7 @@
 
 =FlashLogger - a logger for a Flash application=
 
-|| src || [https://googledrive.com/host/0B8DIOtn2sWX8bFI3QUltMUhpclk/docs/index.html doc] || download ||
+|| trunk || [https://googledrive.com/host/0B1lIbYI9LkEJZUdBUERjTk5sT0E/1.3/source/flashlogger_v1.3_source.7z src] || [https://googledrive.com/host/0B1lIbYI9LkEJZUdBUERjTk5sT0E/1.3/docs/index.html doc] || download ||
 
 _*In progress:* preparing docs and binary downloads._
 
