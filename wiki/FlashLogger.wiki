@@ -3,9 +3,8 @@
 =FlashLogger - a logger for a Flash application=
 
 || [https://googledrive.com/host/0B1lIbYI9LkEJZUdBUERjTk5sT0E/1.3/source/flashlogger_v1.3_source.7z src] || [https://googledrive.com/host/0B1lIbYI9LkEJZUdBUERjTk5sT0E/1.3/docs/index.html doc] || [https://googledrive.com/host/0B1lIbYI9LkEJZUdBUERjTk5sT0E/1.3/source/flashlogger_v1.3_binary.7z
-swf binaries]||
+swf binaries] ||
 
-_*In progress:* preparing docs and binary downloads._
 
 The !FlashLogger allows user interactions with a Flash application to
 be automatically logged (the programmer does not need to manually insert logging code). Logs can be collected by the client through !JavaScript APIs, or remotely using the
