@@ -1,4 +1,4 @@
-#summary An automatic logger for a Flash application.
+#summary An automatic logger for Flash applications.
 
 =FlashLogger - a logger for a Flash application=
 
