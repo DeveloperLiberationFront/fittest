@@ -2,9 +2,8 @@
 
 = The Haslog Suite =
 
-|| haslog src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/haslog/docs/index.html haslog doc] || dtrsplit src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/dtrsplit/docs/index.html dtrsplit doc] || declmerge src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/declmerge/docs/index.html declmerge doc] || daikonice src || [https://googledrive.com/host/0B8DIOtn2sWX8Zlk3SWU0YS1vVzg/HaslogSuite/daikonice/docs/index.html daikonice doc] ||
+|| [https://googledrive.com/host/0B1lIbYI9LkEJa2FWR2VXVS01X1k/1.0/source/haslogsuite_v1_source src] || [https://googledrive.com/host/0B1lIbYI9LkEJa2FWR2VXVS01X1k/1.0/docs/haslog/docs/index.html haslog doc] || [https://googledrive.com/host/0B1lIbYI9LkEJa2FWR2VXVS01X1k/1.0/docs/dtrsplit/docs/index.html dtrsplit doc] || [https://googledrive.com/host/0B1lIbYI9LkEJa2FWR2VXVS01X1k/1.0/docs/declmerge/docs/index.html declmerge doc] || [https://googledrive.com/host/0B1lIbYI9LkEJa2FWR2VXVS01X1k/1.0/docs/daikonice/docs/index.html daikonice doc] || [https://googledrive.com/host/0B1lIbYI9LkEJa2FWR2VXVS01X1k/1.0/binaries binaries] ||
 
-|| linux-binary || MacOS-binary || Win32-binary || Win64-binary||
 
 Haslog suite is a set of command-line tools to process FITTEST logs, e.g. to convert them to XML, to prepare them for specification inference, etc. It consists of the following tools: haslog (yes, it is also the name of one of the tools), declsplit, declmerge, and daikonice.
 
