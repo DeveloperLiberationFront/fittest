@@ -1,4 +1,4 @@
-#summary Compact logging with traceability.
+#summary Compacting logging at the same time extending with traceability.
 
 =Traceability Transformation=
 
