@@ -15,8 +15,7 @@ With ConTest, the impact on the testing effort is minimal. Testers can rerun exi
 In a nutshell, ConTest can perform the following:
 
   * Causes synchronization problems to more likely surface in testing
-  * Support the traditional test coverage models (e.g. branch coverage
-and method coverage) as well as advanced synchronization coverage models
+  * Support the traditional test coverage models (e.g. branch coverage and method coverage) as well as advanced synchronization coverage models
   * Support partial replay, increasing likelihood that a program scenario which gave rise to a specific synchronization problem will recur
   * Produce useful debugging information
 
