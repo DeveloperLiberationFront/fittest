@@ -2,7 +2,7 @@
 
 = CTE XL Professional=
 
-||  || [http://www.cte-xl-professional.com/ download] ||
+||  [http://www.cte-xl-professional.com/ download] ||
 
 The Classification Tree Editor (CTE) is a software tool for test design. It implements the Classification Tree Method presented by Grimm and Grochtmann.
 
