@@ -1,6 +1,6 @@
-#Learning Combinatorial Interaction Testing Strategies using Hyperheuristic Search
+#UCL HHSA Hyperheuristic algorithm for CIT
 
-= Introduction =
+= Learning Combinatorial Interaction Testing Strategies using Hyperheuristic Search =
 
 Two decades of bespoke Combinatorial Interaction Testing (CIT) algorithm development have left software engineers with a bewildering choice of configurable system testing techniques. 
 
