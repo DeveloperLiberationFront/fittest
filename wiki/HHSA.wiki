@@ -1,8 +1,8 @@
-#UCL HHSA-Hyperheuristic algorithm for CIT
+UCL HHSA-Hyperheuristic algorithm for CIT
 
 = Introduction =
 
-Add your content here.
+Two decades of bespoke Combinatorial Interaction Testing (CIT) algorithm development have left software engineers with a bewildering choice of configurable system testing techniques. This paper introduces a single hyperheuristic algorithm that learns CIT strategies, providing a single generalist approach. We report experiments that show that our algorithm competes with known best solutions across constrained and unconstrained problems. For all 26 real world subjects and 29 of the 30 constrained benchmark problems studied, it equals or improves upon the best known result. We also present evidence that our algorithm's strong generic performance is caused by its effective unsupervised learning. Hyperheuristic search is thus a promising way to relocate CIT design intelligence from human to machine.
 
 
 = Details =
