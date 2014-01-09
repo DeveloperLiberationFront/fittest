@@ -18,7 +18,7 @@ FIGURE
 
 The measuring of change sensitivity is divided into six steps 
 
-   # executing the SUT on the regression test suite $TS$; 
+   # executing the SUT on the regression test suite TS; 
    # monitoring the service requests and collecting the response messages; 
    # generating mutated responses by means of mutation operators, based on service assumptions; 
    # for each test case, running the SUT and comparing the behaviour of the SUT when receiving the original response and when the mutated ones are received. 
