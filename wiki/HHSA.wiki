@@ -5,9 +5,9 @@
 Two decades of bespoke Combinatorial Interaction Testing (CIT) algorithm development have left software engineers with a bewildering choice of configurable system testing techniques. 
 
 
-= Details =
+=Download=
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Our combinatorial interaction testing (CIT) tool is designed as a research prototype and the aim is to apply hyperheuristic algorithms to CIT problems.
+
+* Linux 64(Tested on ubuntu 12.04) [http://www0.cs.ucl.ac.uk/staff/y.jia/projects/cit_hyperheuristic/downloads/Comb_Linux_64.tar.gz download]
+* Max OSX64(Tested on OSX 10.8.5) [http://www0.cs.ucl.ac.uk/staff/y.jia/projects/cit_hyperheuristic/downloads/Comb_Mac_OSX_64.tar.gz download]
