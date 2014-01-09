@@ -10,8 +10,7 @@ Our hyperheuristic algorithm learns the CIT strategy to apply dynamically, as it
 
 The hyperheuristic algorithm takes the set of lower level heuristics as input, and layers the heuristic search into two levels that work together to produce the overall solution. 
 
- # The first (or outer) layer uses a normal metaheuristic search to find solutions directly from the solution space of the problem. 
-
+ # The outer layer uses a normal metaheuristic search to find solutions directly from the solution space of the problem. 
  # The inner layer heuristic, searches for the best candidate lower heuristics for the outer layer heuristics in the current problem state. 
 
 As a result, the inner search adaptively identifies and exploits different strategies according to the characteristics of the problems it faces. A full explanation of our algorithm can be found in the UCL technical report  [http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_13_17.pdf RN_13_17].
