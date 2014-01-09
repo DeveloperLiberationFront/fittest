@@ -5,6 +5,8 @@
 
 = Change Sensitivity Test Prioritization (CSTP) =
 
+In this context, service clients communicate with services via message passing: clients send requests
+to services and receive responses (see Figure 1).
 
 Let _s_ be the service under consideration, _snew_ be a candidate that can substitute _s_. _snew_ is the subject of audit testing. Let _TS_ be the set of available test cases that are selected as candidate for audit testing. These are the test cases whose executions result in the invocation of _s_. _TS_ is used in audit testing of _snew_ with respect to the composition under consideration.
 
