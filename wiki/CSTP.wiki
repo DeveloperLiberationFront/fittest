@@ -1,6 +1,6 @@
 #summary Change Sensitivity Test Prioritization
 
-|| [https://code.google.com/p/fittest/source/browse/# src] || [ doc] || download ||
+|| [https://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2Fother-FITTEST-tools%2Fregression src] || [ doc] || download ||
 
 
 = Change Sensitivity Test Prioritization (CSTP) =
