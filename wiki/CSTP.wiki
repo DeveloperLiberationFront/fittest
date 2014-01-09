@@ -12,6 +12,8 @@ In practice, execution of the full suite _TS_ might involve too much time or mig
 
 CSTP determines the _change sensitivity_ of the test cases and uses this metrics to rank the test cases, from the most sensitive to service changes to the least sensitive one. Change sensitivity measures how sensitive a test case is to changes occurring to the service under consideration. The rationale underlying this approach is that  new versions of services may produce service responses that are still compliant with the service interface (WSDL), but violate some assumptions made (often implicitly) by the service integrator when building the service composition. Thus, test cases that are more sensitive to these changes are executed first.
 
+http://fittest.googlecode.com/svn/wiki/imgs/cstp_fig1.png
+
 Specifically, we have defined a set of new mutation operators and we apply them to the service responses to inject artificial changes. Our mutation operators are based on a survey of implicit assumptions commonly made on Web service responses and on manual inspection of those parts of the service API which is described only informally (usually by comments inside the WSDL document). After applying our mutations, we measure change sensitivity for each test case by comparing the outputs of each test case in two situations: with the original response, and with the mutated responses. A change is detected if the behaviour of the service composition differs when the original service is used as compared to the mutated response. Similarly to the mutation score, the change sensitivity score is the number of changes detected (mutants killed) over all changes.
 
 The measuring of change sensitivity is divided into six steps 
