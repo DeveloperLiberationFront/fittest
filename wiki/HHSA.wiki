@@ -14,7 +14,8 @@ The hyperheuristic algorithm takes the set of lower level heuristics as input, a
 
 # The inner layer heuristic, searches for the best candidate lower heuristics for the outer layer heuristics in the current problem state. 
 
-As a result, the inner search adaptively identifies and exploits different strategies according to the characteristics of the problems it faces. A detailed explanation of our algorithm can be found in our [http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_13_17.pdf technical report].
+As a result, the inner search adaptively identifies and exploits different strategies according to the characteristics of the problems it faces. A full explanation of our algorithm can be found in the UCL technical report  [http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_13_17.pdf RN_13_17].
+
 =Download=
 
 Our combinatorial interaction testing (CIT) tool is designed as a research prototype and the aim is to apply hyperheuristic algorithms to CIT problems.
