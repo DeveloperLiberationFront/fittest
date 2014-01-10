@@ -20,17 +20,9 @@
     <module>com.thoughtworks.flashselenium-java-client-extension</module>
 
     <!-- code -->
-    <!-- module>eu.fittest.cte2selenium</module -->
     <module>eu.fittest.fsm</module>
-    <!-- module>eu.fittest.fsm2cte</module -->
-    <!-- module>eu.fittest.modelinference.fsminference</module -->
-    <!-- module>eu.fittest.modelinference.uu2fbklogs</module -->
     <module>eu.fittest.fbkflex</module>
     <module>eu.fittest.eventBasedFSM</module>
-    <module>eu.fittest.eventSequenceGenerator</module>
-    <!--  module>eu.fittest.xinputminer</module -->
-    <!-- module>eu.fittest.fbk.cte2android</module -->
-    <!-- module>eu.fittest.transformtools.standalone</module --> 
   </modules>
 
 </project>
