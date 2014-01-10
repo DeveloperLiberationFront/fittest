@@ -7,7 +7,7 @@
   <description>Selenium 2 FSM</description>
   <parent>
   	<groupId>eu.fittest.fbk</groupId>
-  	<artifactId>eu.fittest.fbk.parent</artifactId>
+  	<artifactId>eu.fittest.fbk.fsmbased.parent</artifactId>
   	<version>1.0.1</version>
   </parent>
   <dependencies>
