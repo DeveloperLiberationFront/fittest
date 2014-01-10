@@ -1,6 +1,6 @@
 #summary IBM Concurrency testing tool
 
-|| [https://www.research.ibm.com/haifa/projects/verification/contest/ how to get it] ||
+|| [https://www.research.ibm.com/haifa/projects/verification/contest/ to get it] ||
 
 Many concurrency bugs originate from the need for shared resources, e.g., local memory for multi-threaded applications or network storage for FI applications. Shared memory requires access protection. Inadequate protection results in data corruption or invalid data reads (races). The protection mechanisms themselves can lead to further bugs, notably deadlocks. Other bugs result from broken assumptions about order of actions, or about completion time of actions.
 
