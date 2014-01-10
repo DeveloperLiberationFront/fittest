@@ -2,7 +2,7 @@
 
 = IBM Focus/CTD: Combinatorial Test Design =
 
-|| [http://researcher.watson.ibm.com/researcher/view_project.php?id=1871  Download] ||
+|| [http://researcher.watson.ibm.com/researcher/view_project.php?id=1871  to get it] ||
 
 The IBM Focus tool is a comprehensive tool for test-oriented system modeling, for model based test planning, and for functional coverage analysis. Its system modeling and test planning are based on computing Cartesian products of system or test aspects, with restrictions applied to the models and henceforth to the computation. The generated test plans are combinatorial, thus placing the IBM Focus tool in the family of combinatorial test design tools (in this respect, in similarity to the CTE tool).
 
