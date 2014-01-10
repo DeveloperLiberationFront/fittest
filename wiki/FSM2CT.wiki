@@ -6,5 +6,3 @@
 = Introduction =
 
 FSM2CT component generates classification trees, each represents one path that is generated from the input model FSM. Moreover, in each tree T-Way combinatorial testing is applied to generate abstract test cases. These test cases are store in the trees as well.
-
-The tool is part of the transformationtools suite
