@@ -5,8 +5,16 @@
 
 = Change Sensitivity Test Prioritization (CSTP) =
 
-In this context, service clients communicate with services via message passing: clients send requests
-to services and receive responses (see Figure 1).
+The FITTEST CSTP tool copes with the challenge that the services of which FI applications are composed evolve very quickly to meet technology and business changes.  Hence service integrators face frequently a critical decision either to update their service compositions to the new versions of the services they are exploiting, or to stay with the old ones, knowing that the old services might have issues, risks, and limited support. More often than not, the latter is the preferred choice since the regression testing activities that need to check the compliance of a new service with a system under test (SUT) are time consuming since there are too many tests. Consequently, test prioritization is crucial because the time budget for testing is often limited. The FITTEST Regression Testing tools (CSTP), aim at automatically prioritizing a set of test cases based on their sensitivity to external changes. The key idea is to give priority to the tests that can detect a high number of artificial changes. Mutation techniques tailored to the inter-service communication are used to generate changes in the messages exchanged between the SUT and the services. These changes are similar to unexpected contents in the service messages that could happen due to service evolution. The test cases that detect such changes have a higher chance of detecting real changes that matter in external services. Therefore, they are ranked higher. 
+
+The measuring of change sensitivity is divided into six steps as can be seen by the following figure:
+
+http://fittest.googlecode.com/svn/wiki/imgs/REGRESSION.jpg
+
+(1) executing the SUT on the regression test suite; (2) monitoring the service requests and collecting the response messages; (3) generating mutated responses by means of mutation operators, based on service assumptions; (4) for each test case, running the SUT and comparing the behaviour of the SUT when receiving the original response and when the mutated ones are received. Then (5) the sensitivity (mutation) score is calculated and (6) test cases are ranked by mutation score.
+
+As an example, service clients communicate with services via message passing: clients send requests
+to services and receive responses (see Figure 2 below).
 
 Let _s_ be the service under consideration, _snew_ be a candidate that can substitute _s_. _snew_ is the subject of audit testing. Let _TS_ be the set of available test cases that are selected as candidate for audit testing. These are the test cases whose executions result in the invocation of _s_. _TS_ is used in audit testing of _snew_ with respect to the composition under consideration.
 
