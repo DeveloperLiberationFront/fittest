@@ -9,7 +9,7 @@ The FITTEST CSTP tool copes with the challenge that the services of which FI app
 
 The measuring of change sensitivity is divided into six steps as can be seen by the following figure:
 
-http://fittest.googlecode.com/svn/wiki/imgs/REGRESSION.jpg
+http://fittest.googlecode.com/svn/wiki/REGRESSION.jpg
 
 (1) executing the SUT on the regression test suite; (2) monitoring the service requests and collecting the response messages; (3) generating mutated responses by means of mutation operators, based on service assumptions; (4) for each test case, running the SUT and comparing the behaviour of the SUT when receiving the original response and when the mutated ones are received. Then (5) the sensitivity (mutation) score is calculated and (6) test cases are ranked by mutation score.
 
