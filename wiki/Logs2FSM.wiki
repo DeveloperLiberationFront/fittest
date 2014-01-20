@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-|| [http://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE%20Components%20standalone%2FModel%20%20Inference%20and%20Transformer%20tools%2FFSM-based%2FLogs2FSM src] || [http://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE%20Components%20standalone%2FModel%20%20Inference%20and%20Transformer%20tools%2FFSM-based%2FLogs2FSM doc] || [https://drive.google.com/folderview?id=0B1lIbYI9LkEJWWs2QnRjZkJqZlE&usp=sharing&tid=0BwFaBuXA-b2vaXVEdU54ZV9zUEE download] ||
+|| [http://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE%20Components%20standalone%2FModel%20%20Inference%20and%20Transformer%20tools%2FFSM-based%2FLogs2FSM src] || [https://drive.google.com/folderview?id=0B1lIbYI9LkEJWWs2QnRjZkJqZlE&usp=sharing&tid=0BwFaBuXA-b2vaXVEdU54ZV9zUEE doc] || [https://drive.google.com/folderview?id=0B1lIbYI9LkEJWWs2QnRjZkJqZlE&usp=sharing&tid=0BwFaBuXA-b2vaXVEdU54ZV9zUEE download] ||
 
 = Introduction =
 
