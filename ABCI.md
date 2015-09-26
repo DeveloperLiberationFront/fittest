@@ -1,0 +1,19 @@
+# ActionScript Byte Code Instrumenter #
+
+| [src](https://googledrive.com/host/0B1lIbYI9LkEJTEFzc0d6UXNWVjg/1.0/source/abci_v1_source.7z) | [doc](https://googledrive.com/host/0B1lIbYI9LkEJTEFzc0d6UXNWVjg/1.0/docs/index.html) | [binary](https://googledrive.com/host/0B1lIbYI9LkEJTEFzc0d6UXNWVjg/1.0/binaries) |
+|:----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+
+
+Abci is an instrumentation tool to inject low-level logging code into a target application. The application is in ActionScript bytecode, packaged as a Flash .swf file. Instrumentation is specified with expressions like these:
+
+```
+[CNis "MyApp", FNhasPrefix  "update"] :>->: LogFunc
+```
+
+which will insert calls to _logLFunEntry_  and _logLFunExit_ at the entry and exit of every functions in the class _MyApp_ whose prefix is _update_. These functions will log e.g. the parameters and the instance variable at the corresponding points. Alternatively, you can redefine these functions to make them do custom things.
+
+Abci is written using the Utrecht University's Attribute Grammar framework, ontop the functional programming language Haskell.
+
+To cite abci, you can cite this article:
+
+[Functional Instrumentation of ActionScript Programs with ASIL](http://dx.doi.org/10.1007/978-3-642-34407-7_1), A. Middelkoop, A. Elyasov, I.S.W.B. Prasetya, in Proc. Symposium on Implementation and Application of Functional Language (IFL), Springer, 2011.

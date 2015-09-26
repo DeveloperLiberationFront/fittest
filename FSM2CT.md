@@ -1,0 +1,6 @@
+| [src](http://code.google.com/p/fittest/source/browse/#svn%2Ftrunk%2FITE%20Components%20standalone%2FModel%20%20Inference%20and%20Transformer%20tools%2FFSM-based%2FFSM2CT) | [doc](https://drive.google.com/folderview?id=0B1lIbYI9LkEJd1ZYeVgya0J1RzQ&usp=sharing&tid=0BwFaBuXA-b2vaXVEdU54ZV9zUEE) | [download](https://drive.google.com/folderview?id=0B1lIbYI9LkEJd1ZYeVgya0J1RzQ&usp=sharing&tid=0BwFaBuXA-b2vaXVEdU54ZV9zUEE) |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|
+
+# Introduction #
+
+FSM2CT component generates classification trees, each represents one path that is generated from the input model FSM. Moreover, in each tree T-Way combinatorial testing is applied to generate abstract test cases. These test cases are store in the trees as well.
